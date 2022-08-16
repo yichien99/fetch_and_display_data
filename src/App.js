@@ -1,11 +1,11 @@
+import { Wrap } from '@chakra-ui/react';
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+import List from './List';
 
 function App() {
   return (
-      <Box textAlign="center" fontSize="xl">
-        
-      </Box>
+    <Wrap w='100%'>
+    <List /></Wrap>
   );
 }
 
