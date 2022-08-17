@@ -29,6 +29,7 @@ const UniList = () => {
               <Th>country</Th>
               <Th>web_pages</Th>
               <Th>name</Th>
+              <Th>state-province</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -39,6 +40,7 @@ const UniList = () => {
                 <Td>{uni.country}</Td>
                 <Td>{uni.web_pages}</Td>
                 <Td>{uni.name}</Td>
+                <Td>{uni['state - province']}</Td> 
               </Tr>
             ))}
           </Tbody>
